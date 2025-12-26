@@ -210,7 +210,7 @@ You are **not allowed / not expected** to manually label YouTube comments.
 
 ## 8) Modeling Requirements (Word2Vec/FastText + GRU)
 
-### 8.1 What does “300 numbers” mean in embeddings?
+### 8.1 Size of the embeddings?
 Word2Vec/FastText represent each word as a numeric vector:
 
 - If `vector_size = 300`, then each word becomes **300 numbers**:
@@ -246,7 +246,7 @@ When you initialize the Keras `Embedding` layer using Word2Vec/FastText vectors,
 
 ---
 
-### 8.3 Implementation steps (student-level) + example code
+### 8.3 Implementation steps + example code
 
 #### Step 1: Build vocabulary using your labeled Part‑1 dataset
 - tokenize texts
@@ -370,7 +370,6 @@ Dropout is a regularization method:
 - helps reduce overfitting,
 - at test time dropout is off.
 
-> **BiGRU is not required** (optional bonus only if you already know it).
 
 ---
 
@@ -434,7 +433,7 @@ Choose one:
 
 ---
 
-## 11) Mermaid Model Diagram (No attention/pooling)
+## 11) Mermaid Model Diagram
 
 Include this in your report:
 
