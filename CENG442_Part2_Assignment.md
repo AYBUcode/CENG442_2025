@@ -439,12 +439,12 @@ Include this in your report:
 
 ```mermaid
 flowchart LR
-  A[Input Text] --> B[Tokenizer & Padding]
-  B --> C[Embedding Layer\nWord2Vec or FastText]
+  A[Input Text] --> B[Tokenizer and Padding]
+  B --> C[Embedding Layer - Word2Vec or FastText]
   C --> D[GRU Layer]
   D --> E[Dropout]
   E --> F[Dense Layer]
-  F --> G[Softmax Output\nneg | neu | pos]
+  F --> G[Softmax Output: neg, neu, pos]
 ```
 
 ---
